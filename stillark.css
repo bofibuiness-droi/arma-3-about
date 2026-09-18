@@ -21,7 +21,7 @@ p {
     font-family: purista-web, sans-serif;
     color:#E6E6E6 ;
 }
-img { max-width: 100%; height:auto; }
+/* img { max-width: 100%; height:auto; }
 
 @media ( max-width:900px) {
     .grid-container,
@@ -41,18 +41,16 @@ img { max-width: 100%; height:auto; }
     body {
         background-attachment: scroll;
     }
-}
+} */
 .grid-container{
     margin-inline: auto;
-    max-width: 1440px;
     display: grid;
     grid-template-columns: 1fr 1fr;
 } 
 .grid-container2 {
     margin-inline: auto;
-    min-width: 375px;
     display: grid;
-    grid-template-columns: 1fr minmax(0,800px) 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     margin-bottom: 20px;
 }
 .grid-items{
