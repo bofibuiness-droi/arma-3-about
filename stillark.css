@@ -1,0 +1,94 @@
+body {
+ background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(media/arma_3_bg.jpg); 
+ background-repeat: no-repeat;
+ background-attachment: fixed;
+ background-size: cover;
+ overflow: auto;
+}
+h1 {
+    font-family: purista-web, sans-serif;
+    color:#FFB300;
+}
+h2 {
+    font-family: purista-web, sans-serif;
+    color:#FFB300;
+    font-size: 32pt;
+}
+p {
+    font-family: purista-web, sans-serif;
+    color:#E6E6E6 ;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    z-index: 1;
+} 
+.grid-container2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-bottom: 20px;
+}
+.grid-items{
+    padding:10px;
+    justify-self: center;
+}
+.nav-tab a{
+    justify-content: center;
+    padding: 10px;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5));
+    color:#FFB300;
+    border-radius: 8px;
+    font-family: purista-web, sans-serif;
+    font-weight: bold;
+    box-shadow: 5px 5px 9px black;
+    border: 1.6px solid #E6E6E6;
+}
+#arma-3-logo {
+    width: 400px;
+    height: auto;
+}
+#gameplayvideo {
+    width: 800px;
+    height: 450px;
+    border: 4px solid #d4a94c;
+    border-radius: 8px;
+    place-self: center;
+    margin: 10px;
+}
+#omarma {
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5));
+    padding: 10px;
+    border-radius: 10px;
+    border: 1.6px solid #E6E6E6;
+    margin-left: 10px;
+    
+}
+.nav-tab {
+    position: fixed;
+    top: 175px;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    z-index: 999;
+}
+#dance{
+    justify-content: center;
+    padding: 10px;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5));
+    color:#FFB300;
+    border-radius: 8px;
+    font-family: purista-web, sans-serif;
+    font-weight: bold;
+    box-shadow: 5px 5px 9px black;
+    border: 1.6px solid #E6E6E6;
+    text-align: center;
+}
+#tekst {
+    font-size: 16pt;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5));
+    padding: 10px;
+    border-radius: 10px;
+    border: 1.6px solid #E6E6E6;
+}
