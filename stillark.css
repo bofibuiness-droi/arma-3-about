@@ -1,25 +1,27 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 body {
- background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(media/arma_3_bg.jpg); 
- background-repeat: no-repeat;
- background-attachment: fixed;
- background-size: cover;
- overflow: auto;
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(media/arma_3_bg.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  overflow: auto;
 }
 h1 {
-    font-family: purista-web, sans-serif;
-    color:#FFB300;
+  font-family: purista-web, sans-serif;
+  color: #ffb300;
 }
 h2 {
-    font-family: purista-web, sans-serif;
-    color:#FFB300;
-    font-size: 32pt;
+  font-family: purista-web, sans-serif;
+  color: #ffb300;
+  font-size: 32pt;
 }
 p {
-    font-family: purista-web, sans-serif;
-    color:#E6E6E6 ;
+  font-family: purista-web, sans-serif;
+  color: #e6e6e6;
 }
 /* img { max-width: 100%; height:auto; }
 
@@ -42,77 +44,82 @@ p {
         background-attachment: scroll;
     }
 } */
-.grid-container{
-    margin-inline: auto;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-} 
+.grid-container {
+  margin-inline: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
 .grid-container2 {
-    margin-inline: auto;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    margin-bottom: 20px;
+  margin-inline: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-bottom: 20px;
+  justify-items: center;
 }
-.grid-items{
-    gap: 10px;
-    padding:10px;
-    justify-self: center;
+.grid-container3 {
+  display:grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
 }
-.nav-tab a{
-    justify-content: center;
-    padding: 10px;
-    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5));
-    color:#FFB300;
-    border-radius: 8px;
-    font-family: purista-web, sans-serif;
-    font-weight: bold;
-    box-shadow: 5px 5px 9px black;
-    border: 1.6px solid #E6E6E6;
+.grid-items {
+  gap: 10px;
+  padding: 10px;
+}
+.nav-tab a {
+  justify-content: center;
+  padding: 10px 18px;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+  color: #ffb300;
+  border-radius: 8px;
+  font-family: purista-web, sans-serif;
+  font-weight: bold;
+  box-shadow: 5px 5px 9px black;
+  border: 1.6px solid #e6e6e6;
 }
 #arma-3-logo {
-    max-width: 300px;
-    height: auto;
+  max-width: 300px;
+  height: auto;
+  margin-bottom: 20px;
 }
 #gameplayvideo {
-    width: 100%;
-    max-width: 800px;
-    aspect-ratio: 16 / 9;
-    height: auto;
-    border: 4px solid #d4a94c;
-    border-radius: 8px;
+  width: 100%;
+  max-width: 800px;
+  aspect-ratio: 16 / 9;
+  height: auto;
+  border: 4px solid #d4a94c;
+  border-radius: 8px;
 }
 #omarma {
-    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5));
-    padding: 10px;
-    border-radius: 10px;
-    border: 1.6px solid #E6E6E6;
- 
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+  padding: 10px;
+  border-radius: 10px;
+  border: 1.6px solid #e6e6e6;
 }
-.nav-tab {
-    position: fixed;
-    top: 175px;
-    right: 0;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    z-index: 999;
+/* .nav-tab {
+  position: fixed;
+  top: 175px;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  z-index: 999;
+} */
+#dance {
+  justify-content: center;
+  padding: 10px;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+  color: #ffb300;
+  border-radius: 8px;
+  font-family: purista-web, sans-serif;
+  font-weight: bold;
+  box-shadow: 5px 5px 9px black;
+  border: 1.6px solid #e6e6e6;
+  text-align: center;
 }
-#dance{
-    justify-content: center;
-    padding: 10px;
-    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5));
-    color:#FFB300;
-    border-radius: 8px;
-    font-family: purista-web, sans-serif;
-    font-weight: bold;
-    box-shadow: 5px 5px 9px black;
-    border: 1.6px solid #E6E6E6;
-    text-align: center;
-}
-#tekst {
-    font-size: 16pt;
-    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5));
-    padding: 10px;
-    border-radius: 10px;
-    border: 1.6px solid #E6E6E6;
+#tekst p{
+  font-size: 16pt;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+  padding: 10px;
+  border-radius: 10px;
+  border: 1.6px solid #e6e6e6;
 }
